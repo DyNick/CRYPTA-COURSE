@@ -5,7 +5,7 @@ $(document).ready(function (){
         margin:0,
         navSpeed:500,
         nav:true,
-        items:1
+        items:3
     });
 
 
