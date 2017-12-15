@@ -1,0 +1,98 @@
+
+.about {
+	padding: 0 10px;
+
+
+}
+
+
+.item {
+	h1 {
+		font-size: 60px;
+		font-family: sans-serif;
+		font-weight: bold;
+		position: absolute;
+		z-index: 2;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%)
+	}
+
+	p {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto 20px;
+		position: absolute;
+		z-index: 3;
+	}
+
+	.btn {
+		display: inline-block;
+		line-height: 35px;
+		height: 35px;
+		text-align: center;
+		padding: 0 20px;
+		width: auto;
+		background-color: #000;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.owl-item {
+	display: table;
+}
+
+.owl-carousel {
+	.item {
+		height: 100vh;
+		width: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		position: relative;
+
+		&--first {
+			//filter:  grayscale(20%);
+			//background-color: #fc0;
+		}
+		&--second {
+			//filter:  grayscale(100%);
+			//background-color: green;
+
+		}
+		&--third {
+			//filter:  grayscale(100%);
+			//background-color: red;
+		}
+	}
+	.owl-nav {
+		position: absolute;
+		top: 0;
+	}
+	.owl-dots {
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+.item-image {
+	&--left {
+		position: absolute;
+		left: 5%;
+		top: 10%;
+		width: 50%;
+		height: 60%;
+		background-color: blue;
+	}
+	&--right {
+		position: absolute;
+		right: 5%;
+		bottom: 10%;
+		width: 50%;
+		height: 60%;
+		background-color: orange;
+		z-index: 1;
+	}
+
+}

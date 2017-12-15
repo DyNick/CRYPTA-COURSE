@@ -1,0 +1,104 @@
+mixin first()
+	section.section-first
+		.demo-cont
+			// slider start
+			.fnc-slider.example-slider
+				.fnc-slider__slides
+					// slide start
+					.fnc-slide.m--blend-green.m--active-slide
+						.fnc-slide__inner
+							.fnc-slide__mask
+								.fnc-slide__mask-inner
+							.fnc-slide__content
+								h2.fnc-slide__heading
+									.fnc-slide__heading-line
+										span Black
+									.fnc-slide__heading-line
+										span Widow
+								button.fnc-slide__action-btn(type='button')
+									| Credits
+									span(data-text='Credits') Credits
+					// slide end
+					// slide start
+					.fnc-slide.m--blend-dark
+						.fnc-slide__inner
+							.fnc-slide__mask
+								.fnc-slide__mask-inner
+							.fnc-slide__content
+								h2.fnc-slide__heading
+									.fnc-slide__heading-line
+										span Captain
+									.fnc-slide__heading-line
+										span America
+								button.fnc-slide__action-btn(type='button')
+									| Credits
+									span(data-text='Credits') Credits
+					// slide end
+					// slide start
+					.fnc-slide.m--blend-red
+						.fnc-slide__inner
+							.fnc-slide__mask
+								.fnc-slide__mask-inner
+							.fnc-slide__content
+								h2.fnc-slide__heading
+									.fnc-slide__heading-line
+										span Iron
+									.fnc-slide__heading-line
+										span Man
+								button.fnc-slide__action-btn(type='button')
+									| Credits
+									span(data-text='Credits') Credits
+					// slide end
+					// slide start
+					.fnc-slide.m--blend-blue
+						.fnc-slide__inner
+							.fnc-slide__mask
+								.fnc-slide__mask-inner
+							.fnc-slide__content
+								h2.fnc-slide__heading
+									.fnc-slide__heading-line
+										span Thor
+									.fnc-slide__heading-line
+										span Just Thor
+								button.fnc-slide__action-btn(type='button')
+									| Credits
+									span(data-text='Credits') Credits
+					// slide end
+				nav.fnc-nav
+					.fnc-nav__bgs
+						.fnc-nav__bg.m--navbg-green.m--active-nav-bg
+						.fnc-nav__bg.m--navbg-dark
+						.fnc-nav__bg.m--navbg-red
+						.fnc-nav__bg.m--navbg-blue
+					.fnc-nav__controls
+						button.fnc-nav__control
+							| Black Widow
+							span.fnc-nav__control-progress
+						button.fnc-nav__control
+							| Captain America
+							span.fnc-nav__control-progress
+						button.fnc-nav__control
+							| Iron Man
+							span.fnc-nav__control-progress
+						button.fnc-nav__control
+							| Thor
+							span.fnc-nav__control-progress
+			// slider end
+			.demo-cont__credits
+				.demo-cont__credits-close
+				h2.demo-cont__credits-heading Made by
+				img.demo-cont__credits-img(src='//s3-us-west-2.amazonaws.com/s.cdpn.io/142996/profile/profile-512_5.jpg', alt='')
+				h3.demo-cont__credits-name Nikolay Talanov
+				a.demo-cont__credits-link(href='https://codepen.io/suez/', target='_blank') My codepen
+				a.demo-cont__credits-link(href='https://twitter.com/NikolayTalanov', target='_blank') My twitter
+				h2.demo-cont__credits-heading Based on
+				a.demo-cont__credits-link(href='https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation', target='_blank') Concept by Kreativa Studio
+				h4.demo-cont__credits-blend Global Blend Mode
+				.colorful-switch
+					input#colorful-switch-cb.colorful-switch__checkbox.js-activate-global-blending(type='checkbox')
+					label.colorful-switch__label(for='colorful-switch-cb')
+						span.colorful-switch__bg
+						span.colorful-switch__dot
+						span.colorful-switch__on
+							span.colorful-switch__on__inner
+						span.colorful-switch__off
