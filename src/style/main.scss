@@ -1,10 +1,11 @@
-@import "partials/reset";
-@import "partials/fonts";
-@import "partials/default";
+@import "partials/_reset";
+@import "partials/_fonts";
+@import "partials/_default";
 /*==================PLUGINS =================*/
 @import "partials/plugins/owl-carousel";
 @import "partials/plugins/owl-carousel-thems";
 /*====================MAIN PAGE===============*/
+@import "partials/main-page/header";
 @import "partials/main-page/intro";
 @import "partials/main-page/_intro-section";
 @import "partials/main-page/_expert-section";
