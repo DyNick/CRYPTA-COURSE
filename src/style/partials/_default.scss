@@ -1,11 +1,17 @@
 
 
-//variable for base font
-$base-font-size :16px;
+//variable for base font-size
+$main-fs :16px;
+$h1-fs :110px;
+$h2-fs:72px;
+$h3-fs: 38px;
 
-/*
-	Width variables
-*/
+//variable for base font-family
+$aa-bold :  'AAvaneBold';
+$mpb: 'MyaridProBold';
+$mpr: 'MyaridProRegular';
+//Width variables
+
 $container-width : 1200px;
 $laptop-width :1280px;
 $desktop-width : 1024px;
@@ -20,10 +26,13 @@ $tablet-media : 'screen and (max-width: $tablet-width)';
 $desktop-media : 'screen and (max-width: $desktop-width)';
 $container-media : 'screen and (max-width: $container-width)';
 
-$color-red: #FF0000;
-$color-green: #00FF00;
-$color-blue: #0000FF;
+// brand colors
+$red-primary:#ff0000;
+$red-secondary: #be2021;
+$orange: #fda625;
+$grey: #7a7c7c;
 
+// mixins
 @mixin respond-to($media) {
 	@media only screen and #{$media} {
 		@content;
@@ -49,7 +58,10 @@ $color-blue: #0000FF;
 	text-transform: uppercase;
 }
 
-/*=================default===============*/
+
+
+
+//=================default===============
 body{
 	font-family:sans-serif;
 }

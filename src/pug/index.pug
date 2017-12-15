@@ -1,13 +1,13 @@
 //include template/main-page/intro
-include template/main-page/first
-include template/main-page/second
-include template/main-page/third
-include template/main-page/four
-include template/main-page/five
+include template/main-page/intro-section
+include template/main-page/expert-section
+include template/main-page/programme-section
+include template/main-page/study-section
+include template/main-page/feedbacks-section
 include template/main-page/six
 include template/main-page/contact
 include template/footer
-//include template/header
+include template/header
 
 
 doctype html
@@ -29,13 +29,13 @@ html(lang="ru")
 		link(rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon")
 		//FAVICON:END
 	body
-		//+header()
+		+header()
 		//+intro ()
-		+first ()
-		+second ()
-		+third ()
-		+four ()
-		+five ()
+		+intro-section ()
+		+expert-section ()
+		+programme-section ()
+		+study-section ()
+		+fidbacks-section ()
 		+six ()
 		+contact ()
 		+footer ()
