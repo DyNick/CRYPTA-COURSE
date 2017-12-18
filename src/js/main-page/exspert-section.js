@@ -2,10 +2,10 @@ $(document).ready(function (){
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         loop:true,
-        margin:0,
+        margin:30,
         navSpeed:500,
         nav:true,
-        items:3
+        items:4
     });
 
 

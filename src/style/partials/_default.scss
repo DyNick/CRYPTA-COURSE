@@ -62,8 +62,14 @@ $grey: #7a7c7c;
 
 
 //=================default===============
+html{
+
+}
 body{
 	font-family:sans-serif;
+	overflow: hidden;
+	overflow-y: scroll;
+
 }
 a{
 	text-decoration:none;
