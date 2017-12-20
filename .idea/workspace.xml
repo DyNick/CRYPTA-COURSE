@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d904a5-b60e-4dfb-972b-fc1c5360bc3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/main-page/study-section.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main-page/exspert-section.js" afterPath="$PROJECT_DIR$/src/js/main-page/exspert-section.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/template/main-page/expert-section.pug" afterPath="$PROJECT_DIR$/src/pug/template/main-page/expert-section.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/template/main-page/programme-section.pug" afterPath="$PROJECT_DIR$/src/pug/template/main-page/programme-section.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main-page/study-section.js" afterPath="$PROJECT_DIR$/src/js/main-page/study-section.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/template/main-page/study-section.pug" afterPath="$PROJECT_DIR$/src/pug/template/main-page/study-section.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/main-page/_expert-section.scss" afterPath="$PROJECT_DIR$/src/style/partials/main-page/_expert-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/main-page/_programme-section.scss" afterPath="$PROJECT_DIR$/src/style/partials/main-page/_programme-section.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss" afterPath="$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,7 +29,7 @@
           <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
+                <state relative-caret-position="187">
                   <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
@@ -44,8 +39,8 @@
           <file leaf-file-name="study-section.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/study-section.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -55,7 +50,7 @@
             <entry file="file://$PROJECT_DIR$/src/js/main-page/exspert-section.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
-                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -74,7 +69,7 @@
           <file leaf-file-name="intro-section.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/main-page/intro-section.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
+                <state relative-caret-position="2992">
                   <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
                   <folding />
                 </state>
@@ -94,7 +89,7 @@
           <file leaf-file-name="expert-section.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/expert-section.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
+                <state relative-caret-position="1751">
                   <caret line="103" column="24" lean-forward="false" selection-start-line="102" selection-start-column="89" selection-end-line="103" selection-end-column="24" />
                   <folding />
                 </state>
@@ -104,7 +99,7 @@
           <file leaf-file-name="programme-section.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/programme-section.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
+                <state relative-caret-position="2142">
                   <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="98" />
                   <folding />
                 </state>
@@ -205,21 +200,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_study-section.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_study-section.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="39">
-                  <caret line="142" column="2" lean-forward="true" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
+                <state relative-caret-position="204">
+                  <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="study-section.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="study-section.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/main-page/study-section.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -288,10 +283,10 @@
         <option value="$PROJECT_DIR$/src/pug/template/main-page/expert-section.pug" />
         <option value="$PROJECT_DIR$/src/style/partials/main-page/_expert-section.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/main-page/_programme-section.scss" />
-        <option value="$PROJECT_DIR$/src/js/main-page/study-section.js" />
-        <option value="$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss" />
         <option value="$PROJECT_DIR$/src/js/main-page/exspert-section.js" />
         <option value="$PROJECT_DIR$/src/pug/template/main-page/study-section.pug" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss" />
+        <option value="$PROJECT_DIR$/src/js/main-page/study-section.js" />
       </list>
     </option>
   </component>
@@ -333,6 +328,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -639,19 +636,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LANDING/Landing-mark" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
@@ -770,11 +783,12 @@
       <workItem from="1513347359332" duration="2666000" />
       <workItem from="1513583220224" duration="24695000" />
       <workItem from="1513669749161" duration="22364000" />
+      <workItem from="1513756847436" duration="9149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119681000" />
+    <option name="totallyTimeSpent" value="128830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,6 +801,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-152" width="1616" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19708492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -844,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="83" column="3" lean-forward="false" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +1043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
@@ -1095,16 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main-page/intro-section.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
+        <state relative-caret-position="2992">
           <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main-page/study-section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1119,7 +1123,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/expert-section.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
+        <state relative-caret-position="1751">
           <caret line="103" column="24" lean-forward="false" selection-start-line="102" selection-start-column="89" selection-end-line="103" selection-end-column="24" />
           <folding />
         </state>
@@ -1127,7 +1131,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/programme-section.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="2142">
           <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="98" />
           <folding />
         </state>
@@ -1141,26 +1145,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss">
+    <entry file="file://$PROJECT_DIR$/src/js/main-page/exspert-section.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="142" column="2" lean-forward="true" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main-page/exspert-section.js">
+    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_study-section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/study-section.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main-page/study-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
