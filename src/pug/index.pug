@@ -7,7 +7,10 @@ include template/main-page/feedbacks-section
 include template/main-page/six
 include template/main-page/contact
 include template/footer
+//    INDEX PAGE PUG MIXIN
 include template/header
+include template/main-page/intro
+include template/main-page/reviews
 
 
 doctype html
@@ -30,18 +33,15 @@ html(lang="ru")
 		//FAVICON:END
 	body
 		+header()
-		//+intro ()
-		+intro-section ()
+		+intro()
 		+expert-section ()
 		+programme-section ()
 		+study-section ()
-		+fidbacks-section ()
-		+six ()
-		+contact ()
+		+reviews()
 		+footer ()
 
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
 
 		script(src="js/main.js")
-		script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBGpxCwfv7Br94wILKwOy6vuVh7xLyVGAU&callback=myMap')
+		//script(src="js/timer.js")
 

@@ -1,13 +1,22 @@
 mixin header()
 	header.header
 		div.container
-			nav.navigation
+			nav.nav-header
 				ul
 					li
-						a(href='#')
-
-					li two
-					li three
-					li for
-					li five
-					li six
+						a(href='/').logo
+							img(src="img/header/logo.png")
+					li
+						a(href="#").header-link о курсе
+					li
+						a(href="#").header-link цели и результаты
+					li
+						a(href="#").header-link спикеры
+					li
+						a(href="#").header-link что вы получите
+					li
+						a(href="#").header-link отзывы
+					li
+						a(href="#").header-link контакты
+					li
+						a(href="#").btn купить курс

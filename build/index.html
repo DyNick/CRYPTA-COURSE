@@ -1,5 +1,6 @@
 
-<!--include template/main-page/intro--><!DOCTYPE html>
+<!--include template/main-page/intro-->
+<!--    INDEX PAGE PUG MIXIN--><!DOCTYPE html>
 <html lang="ru">
   <head>
     <title>Restaurant</title>
@@ -17,20 +18,62 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="navigation">
+        <nav class="nav-header">
           <ul>
-            <li><a href="#"></a></li>
-            <li>two</li>
-            <li>three</li>
-            <li>for</li>
-            <li>five</li>
-            <li>six</li>
+            <li><a class="logo" href="/"><img src="img/header/logo.png"/></a></li>
+            <li><a class="header-link" href="#">о курсе</a></li>
+            <li><a class="header-link" href="#">цели и результаты</a></li>
+            <li><a class="header-link" href="#">спикеры</a></li>
+            <li><a class="header-link" href="#">что вы получите</a></li>
+            <li><a class="header-link" href="#">отзывы</a></li>
+            <li><a class="header-link" href="#">контакты</a></li>
+            <li><a class="btn" href="#">купить курс</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <!--+intro ()-->
-    <section class="section-first"></section>
+    <article class="intro">
+      <section class="intro-content container">
+        <div class="intro_date">
+          <p class="intro_date-date">15-28 <br> фев 2018</p>
+          <div class="intro_date-line"></div>
+          <p class="intro_date-course">интенсивный <br><span>курс</span></p>
+        </div>
+        <h1 class="title"><span>криптовалюты <br></span>и<span> ico</span> с нуля</h1>
+        <div class="intro_about_course">
+          <div class="intro_about_course--item">
+            <p><span>30</span>дней обучения</p>
+          </div>
+          <div class="intro_about_course--item">
+            <p><span>7</span>часов практик</p>
+          </div>
+          <div class="intro_about_course--item">
+            <p><span>6</span>online вебинаров</p>
+          </div>
+        </div>
+        <div class="timer">
+          <div id="countdown">
+            <div class="cd-box">
+              <p class="numbers days">00</p>
+              <p class="strings timeRefDays">дней</p>
+            </div>
+            <div class="cd-box">
+              <p class="numbers hours">00</p>
+              <p class="strings timeRefHours">часов</p>
+            </div>
+            <div class="cd-box">
+              <p class="numbers minutes">00</p>
+              <p class="strings timeRefMinutes">минут</p>
+            </div>
+            <div class="cd-box">
+              <p class="numbers seconds">00</p>
+              <p class="strings timeRefSeconds">cекунд</p>
+            </div>
+          </div>
+        </div>
+        <p class="intro_price">стоимость курса<span>   3700</span><span> грн</span></p><a class="btn" href="#">купить курс</a>
+      </section>
+    </article>
     <section class="expert-section"><img class="image-rhombus-expert-section" src="../img/expert-section/rhombus-section2.png"/>
       <!--div.rhombus-first.rhombus-first--exspert-->
       <div class="rhombus-second rhombus-second--exspert"></div>
@@ -283,11 +326,11 @@
                   </div>
                 </div>
                 <div class="timeline-about-speacker__description">
-                  <div class="title">Инвестировать в перспективное ICO</div>
+                  <div class="title-inner">Инвестировать в перспективное ICO</div>
                   <div class="description">Вы станете полноценным бизнес ангелом и сможете инвестировать только в перспективные ICO стартапы</div>
-                  <div class="title">Создать свое ICO</div>
+                  <div class="title-inner">Создать свое ICO</div>
                   <div class="description">Сможете самостоятельно создать свое ICO.</div>
-                  <div class="title">Эфективная покупка токенов</div>
+                  <div class="title-inner">Эфективная покупка токенов</div>
                   <div class="description">Покупать токены на этапе Pre ICO по бросовым ценам, и если проект действительно интересный, а оказываемые им услуги носят ценный характер, в перспективе можно продать их значительно дороже.</div>
                 </div>
               </div>
@@ -306,7 +349,7 @@
                   </div>
                 </div>
                 <div class="timeline-about-speacker__description">
-                  <div class="title">Инвестировать в перспективное ICO</div>
+                  <div class="title-inner">Инвестировать в перспективное ICO</div>
                   <div class="description">Вы станете полноценным бизнес ангелом и сможете инвестировать только в перспективные ICO стартапы</div>
                 </div>
               </div>
@@ -325,7 +368,7 @@
                   </div>
                 </div>
                 <div class="timeline-about-speacker__description">
-                  <div class="title">Инвестировать в перспективное ICO</div>
+                  <div class="title-inner">Инвестировать в перспективное ICO</div>
                   <div class="description">Вы станете полноценным бизнес ангелом и сможете инвестировать только в перспективные ICO стартапы</div>
                 </div>
               </div>
@@ -344,7 +387,7 @@
                   </div>
                 </div>
                 <div class="timeline-about-speacker__description">
-                  <div class="title">Инвестировать в перспективное ICO</div>
+                  <div class="title-inner">Инвестировать в перспективное ICO</div>
                   <div class="description">Вы станете полноценным бизнес ангелом и сможете инвестировать только в перспективные ICO стартапы</div>
                 </div>
               </div>
@@ -356,94 +399,52 @@
         </div>
       </div>
     </section>
-    <section class="section-five">
-      <div class="container container--five">
-        <div class="container-inner">
-          <div class="column column--two-items"><img class="section-five-image section-five-image--main" src="img/carousel-header/h1.2.jpg"/><img class="section-five-image section-five-image--secondary" src="img/carousel-header/h1.1.jpg"/></div>
-          <div class="column column--two-items">
-            <h2 class="column-header">lorem</h2>
-            <p class="column-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum<a class="btn-main" href="#">button</a><img class="story-image" src="img/carousel-header/h1.1.jpg"/>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-six"></section>
-    <section class="section-contact">
-      <div class="container container--contact">
-        <div class="container-inner">
-          <div class="column column--two-items">
-            <div class="form-block">
-              <div class="card">
-                <h1 class="title">Register
-                  <div class="close"></div>
-                </h1>
-                <form>
-                  <div class="input-container">
-                    <input type="#{type}" id="#{label}" required="required"/>
-                    <label for="#{label}">Name</label>
-                    <div class="bar"></div>
-                  </div>
-                  <div class="input-container">
-                    <input type="#{type}" id="#{label}" required="required"/>
-                    <label for="#{label}">Email</label>
-                    <div class="bar"></div>
-                  </div>
-                  <div class="input-container">
-                    <input type="#{type}" id="#{label}" required="required"/>
-                    <label for="#{label}">Subject</label>
-                    <div class="bar"></div>
-                  </div>
-                  <div class="input-container">
-                    <textarea rows="#{rows}" cols="#{cols}" id="#{label}" required="required"></textarea>
-                    <label for="#{label}">Message</label>
-                  </div>
-                  <div class="button-container">
-                    <button><span>Send message</span></button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <!--.row
-            .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
-            	h2 Contact
-            -->
-            <!--.row
-            .col-xs-6.col-sm-6.col-md-6.col-lg-6.col-xs-offset-3
-            	form#contact-form.form(action='#', method='POST', role='form')
-            		.form-group
-            			label.form-label(for='name') Your Name
-            			input#name.form-control(type='text', name='name', placeholder='Your name', tabindex='1', required='')
-            		.form-group
-            			label.form-label(for='email') Your Email
-            			input#email.form-control(type='email', name='email', placeholder='Your Email', tabindex='2', required='')
-            		.form-group
-            			label.form-label(for='subject') Subject
-            			input#subject.form-control(type='text', name='subject', placeholder='Subject', tabindex='3')
-            		.form-group
-            			label.form-label(for='message') Message
-            			textarea#message.form-control(rows='5', cols='50', name='message', placeholder='Message...', tabindex='4', required='')
-            		.text-center
-            			button.btn-main(type='submit') Send Message
-            -->
-          </div>
-          <div class="column column--two-items">
-            <h2 class="column-header">lorem</h2>
-            <p class="column-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            <div class="google-map" id="googleMap" style="width:100%;height:400px;"></div><a class="btn-main" href="#">button</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="section-footer">
-      <div class="container container--footer">
-        <div class="copyright">
-          <p>&copy 2013 - Organisation</p>
-        </div>
-        <div class="social"><a class="support" href="#">Contact Us</a><a class="face" href="#">f</a><a class="tweet" href="#">t</a><a class="linked" href="#">in</a></div>
-      </div>
-    </footer>
+    <article class="reviews_block">
+      <div class="reviews_roumb"></div>
+      <section class="reviews container">
+        <h2>ОТЗЫВЫ</h2>
+        <ul class="reviews_slider owl-carousel">
+          <li class="reviews_slider--item"><img src="img/reviews/1.png"/>
+            <p><span class="reviews_title">Олег Корнеев <br></span><span class="reviews_text"> “ Отличный спикер! Все очень доступно и понятно объясняет, видно что человеку не все ровно. На все свои вопросы я нашел ответы при том, что изначально знания в этой области были нулевые. Спасибо за курс! “</span></p>
+          </li>
+          <li class="reviews_slider--item"><img src="img/reviews/1.png"/>
+            <p><span class="reviews_title">Олег Корнеев <br></span><span class="reviews_text"> “ Отличный спикер! Все очень доступно и понятно объясняет, видно что человеку не все ровно. На все свои вопросы я нашел ответы при том, что изначально знания в этой области были нулевые. Спасибо за курс! “</span></p>
+          </li>
+          <li class="reviews_slider--item"><img src="img/reviews/1.png"/>
+            <p><span class="reviews_title">Олег Корнеев <br></span><span class="reviews_text"> “ Отличный спикер! Все очень доступно и понятно объясняет, видно что человеку не все ровно. На все свои вопросы я нашел ответы при том, что изначально знания в этой области были нулевые. Спасибо за курс! “</span></p>
+          </li>
+          <li class="reviews_slider--item"><img src="img/reviews/1.png"/>
+            <p><span class="reviews_title">Олег Корнеев <br></span><span class="reviews_text"> “ Отличный спикер! Все очень доступно и понятно объясняет, видно что человеку не все ровно. На все свои вопросы я нашел ответы при том, что изначально знания в этой области были нулевые. Спасибо за курс! “</span></p>
+          </li>
+          <li class="reviews_slider--item"><img src="img/reviews/1.png"/>
+            <p><span class="reviews_title">Олег Корнеев <br></span><span class="reviews_text"> “ Отличный спикер! Все очень доступно и понятно объясняет, видно что человеку не все ровно. На все свои вопросы я нашел ответы при том, что изначально знания в этой области были нулевые. Спасибо за курс! “</span></p>
+          </li>
+          <li class="reviews_slider--item"><img src="img/reviews/1.png"/>
+            <p><span class="reviews_title">Олег Корнеев <br></span>“ Отличный спикер! Все очень доступно и понятно объясняет, видно что человеку не все ровно. На все свои вопросы я нашел ответы при том, что изначально знания в этой области были нулевые. Спасибо за курс! “</p>
+          </li>
+        </ul>
+      </section>
+    </article>
+    <article class="footer_block">
+      <footer class="footer container">
+        <ul class="footer-nav">
+          <li><a class="header-link" href="#">о курсе</a></li>
+          <li><a class="header-link" href="#">цели и результаты</a></li>
+          <li><a class="header-link" href="#">спикеры</a></li>
+          <li><a class="header-link" href="#">что вы получите</a></li>
+          <li><a class="header-link" href="#">отзывы</a></li>
+          <li><a class="header-link" href="#">контакты</a></li>
+        </ul>
+        <ul class="footer-info">
+          <li><span><i class="fa fa-globe" aria-hidden="true"></i></span><a class="footer_link" href="#">www.crypta.tv</a></li>
+          <li><span><i class="fa fa-phone" aria-hidden="true"></i></span><a class="footer_link" href="tel:+38 (044) 360-16-96">+38 (044) 360-16-96</a></li>
+          <li><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span><a class="footer_link" href="mailto:cryptatv@gmail.com">cryptatv@gmail.com</a></li>
+        </ul>
+        <div class="footer-logo"><a href="/"><img src="img/header/logo.png"/></a></div>
+      </footer>
+    </article>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGpxCwfv7Br94wILKwOy6vuVh7xLyVGAU&amp;callback=myMap"></script>
+    <!--script(src="js/timer.js")-->
   </body>
 </html>

@@ -1,20 +1,14 @@
-@font-face {
-  font-family: "AAvaneBold";
-  src: url("../fonts/AAvanteBS/a_AvanteBs ExtraBold.ttf");
-  font-style: normal;
-  font-weight: 900;
-}
-
-
-@font-face {
-  font-family: "MyaridProBold";
+@font-face{
+  font-family: "mpb";
   src: url("../fonts/MyriadPro/MyriadProBold/MyriadProBold.ttf");
   font-style: normal;
   font-weight: 900;
 }
-@font-face {
-  font-family: "MyaridProReg";
+
+@font-face{
+  font-family: "mpr";
   src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf");
   font-style: normal;
   font-weight: 400;
 }
+

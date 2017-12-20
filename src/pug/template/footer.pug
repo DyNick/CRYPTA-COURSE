@@ -1,10 +1,32 @@
 mixin footer
-	footer.section-footer
-		div.container.container--footer
-			.copyright
-				p &copy 2013 - Organisation
-			.social
-				a.support(href='#') Contact Us
-				a.face(href='#') f
-				a.tweet(href='#') t
-				a.linked(href='#') in
+    article.footer_block
+        footer.footer.container
+            ul.footer-nav
+                li
+                    a(href="#").header-link о курсе
+                li
+                    a(href="#").header-link цели и результаты
+                li
+                    a(href="#").header-link спикеры
+                li
+                    a(href="#").header-link что вы получите
+                li
+                    a(href="#").header-link отзывы
+                li
+                    a(href="#").header-link контакты
+            ul.footer-info
+                li
+                    span
+                        i(class="fa fa-globe" aria-hidden="true")
+                    a(href="#" class="footer_link") www.crypta.tv
+                li
+                    span
+                        i(class="fa fa-phone" aria-hidden="true")
+                    a(href="tel:+38 (044) 360-16-96" class="footer_link") +38 (044) 360-16-96
+                li
+                    span
+                        i(class="fa fa-envelope-o" aria-hidden="true")
+                    a(href="mailto:cryptatv@gmail.com" class="footer_link") cryptatv@gmail.com
+            div.footer-logo
+                a(href="/" class="")
+                    img(src="img/header/logo.png")
