@@ -1,10 +1,18 @@
 .programme-section{
 	height: 1200px;
 	position: relative;
-	background: url(../img/expert-section/clouds2.png);
+/*	background: url(../img/expert-section/clouds2.png);
 	background-position-y: -47%;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+}
+.clouds-image-programme{
+	position: absolute;
+	top:40px;
+	width: 100%;
+	&--review{
+		top:300px;
+	}
 }
 .rhombus-first-programme{
 	transform: rotate(45deg) translateX(20%);
@@ -66,11 +74,13 @@
 			margin-bottom: 3%;
 			position:relative;
 			box-sizing: border-box;
+			overflow: hidden;
 			&:hover{
 				.container--programme__list__item_hover{
-					opacity:1;
-					transition: 0.25s;
+
+					transition: 0.3s;
 					cursor: pointer;
+					transform: translateY(0);
 				}
 			}
 			&_description{
@@ -91,7 +101,7 @@
 			&_hover{
 				position: absolute;
 				top: 0;
-				bottom: 3px;
+				bottom: 0px;
 				left: 0;
 				right: 0;
 				z-index: 2;
@@ -99,8 +109,8 @@
 				background-color: #fff;
 				font-size: 23px;
 				box-shadow: 0px 0px 76px -3px rgba(0,0,0,0.75);
-				opacity:0;
-				transition: 0.25s;
+				transition: 0.3s;
+				transform: translateY(100%);
 				ul {
 					display: flex;
 					height: 100%;

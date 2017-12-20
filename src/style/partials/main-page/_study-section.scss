@@ -4,28 +4,30 @@
 }
 .rhombus-study{
   transform: rotate(45deg) translateX(-87%);
-  height: 1300px;
-  width: 1300px;
+  height: 1500px;
+  width: 1500px;
   position:absolute;
   box-shadow: 0px 0px 76px -3px rgba(0,0,0,0.75);
   left: 50%;
   background-size: cover;
   background-position: center;
-  top: 470px;
+  top: 580px;
 }
 .birds-study{
   position:absolute;
   right: 0;
-  top:-100px;
+  top:1300px;
 }
 
 .cloud-study{
   position:absolute;
   left: 0;
-  top:-100px;
+
+  top: -900px;
 }
 .container--study {
   width: 70%;
+  margin-top: -73px;
 }
 .container--study__title{
   font-size: 72px;
@@ -246,11 +248,12 @@
 }
 
 .timeline-about-speacker__date{
-  font-size: 23px;
+  font-size: 22px;
   color: #000;
-  font-weight: bold;
-  border-bottom:1px solid #cecece;
-  padding-bottom:5px;
+  font-weight: 700;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 5px;
+  padding-top: 5px;
   margin-bottom: 5px;
 }
 .timeline-about-speacker__time{
@@ -344,4 +347,12 @@
   opacity: 1;
   transition: .3s;
 
+}
+.btn--study{
+  width: 300px;
+  z-index: 1;
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-100%);
 }

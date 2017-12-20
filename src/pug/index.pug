@@ -7,6 +7,7 @@ include template/main-page/feedbacks-section
 include template/main-page/six
 include template/main-page/contact
 include template/footer
+include template/main-page/video-popup
 //    INDEX PAGE PUG MIXIN
 include template/header
 include template/main-page/intro
@@ -16,7 +17,7 @@ include template/main-page/reviews
 doctype html
 html(lang="ru")
 	head
-		title= 'Restaurant'
+		title= 'CRYPTA COURSES'
 		//- meta
 		meta(charset="UTF-8")
 		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
@@ -39,6 +40,7 @@ html(lang="ru")
 		+study-section ()
 		+reviews()
 		+footer ()
+		+video-popup()
 
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
 

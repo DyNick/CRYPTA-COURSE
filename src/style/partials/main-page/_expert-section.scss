@@ -1,13 +1,17 @@
 .expert-section{
 	position: relative;
-	background: url(../img/expert-section/clouds.png);
+/*	background: url(../img/expert-section/clouds.png);
 	background-position-y: -40%;
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	height: 1100px;
 	margin-top: 100px;
 }
-
+.image-clouds-expert-section{
+	position:absolute;
+	top:-250px;
+	width: 100%;
+}
 .image-rhombus-expert-section{
 	height: 1200px;
 	width: 1200px;
@@ -404,7 +408,7 @@ svg {
 	font-size: 18px;
 	line-height: 45px;
 	transition: .25s;
-	margin-left: 33px;
+	margin-left: 54px;
 	&:hover{
 		background-color: $red-primary;
 		color: #eee;
