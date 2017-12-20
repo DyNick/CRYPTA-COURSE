@@ -1,8 +1,8 @@
 $(document).ready(function (){
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
+    var owlExperts = $('.owl-carousel');
+    owlExperts.owlCarousel({
         loop:true,
-        margin:30,
+        margin:20,
         navSpeed:500,
         nav:true,
         items:4
