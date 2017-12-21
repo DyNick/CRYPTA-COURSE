@@ -15,8 +15,8 @@
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    height: 660px;
-    width: 900px;
+    height: 570px;
+    width: 850px;
     background-color:rgba(255,255,255,0.8);
     box-shadow: 0px 0px 76px -3px rgba(0,0,0,0.75);
     overflow: hidden;
@@ -82,20 +82,22 @@
       z-index: -1;
     }
     &__title{
-      font-size: 44px;
+      font-size: 38px;
       color: #fe9923;
-      font-weight: bold;
+      font-weight: 700;
       text-align: center;
-      margin: 30px auto 20px;
+      margin: 20px auto 5px;
     }
     &__sub-title{
       text-align: center;
       margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
     }
     &__iframe-block{
-      height: 400px;
+      height: 390px;
       width: 600px;
-      margin: 30px auto;
+      margin: 0px auto;
       background-size: cover;
       position: relative;
 
@@ -114,7 +116,7 @@
   width: 100%;
   line-height: 1.2;
   font-size: 16px;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
   box-sizing: border-box;
 }
