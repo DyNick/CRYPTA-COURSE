@@ -7,6 +7,20 @@ $(window).scroll(function () {
         header.removeClass('header--active');
     }
 });
+
+// HAMBURGER INDEX PAGE
+var $hamburger = $(".hamburger"); // INDEX PAGE
+var $menu = $('.nav');
+$hamburger.on("click", function(e) {
+    $hamburger.addClass("is-active");
+    $menu.addClass('active-nav');
+});
+$('.close-button--menu').on('click', function() {
+    $hamburger.removeClass('is-active');
+    $menu.removeClass('active-nav');
+})
+// HAMBURGER INDEX PAGE END
+
 // SLIDER SPEAKERS REVIEWS
 $(document).ready(function () {
     var sliderReviews = $('.reviews_slider');
@@ -25,10 +39,8 @@ $(document).ready(function () {
                 items: 1
             }
         }
-    });
-
-
-});
+    })
+})
 
 
 /*==============PARALLAX ===================*/
@@ -59,28 +71,24 @@ $(window).scroll(function () {
 });
 
 
+
 /*==========youtube========*/
 
-$(function () {
-    $(".youtube").each(function () {
+$(function() {
+    $(".youtube").each(function() {
         // Based on the YouTube ID, we can easily find the thumbnail image
         $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
 
         // Overlay the Play icon to make it look like a video player
         $(this).append($('<div/>', {'class': 'play'}));
 
-        $(document).delegate('#' + this.id, 'click', function () {
+        $(document).delegate('#'+this.id, 'click', function() {
             // Create an iFrame with autoplay set to true
-            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&showinfo=0&list=PLI2GnEQsXmxtmknxfc8wpMWCsX5jFtrhR";
-            if ($(this).data('params')) iframe_url += '&' + $(this).data('params');
+            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1";
+            if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
 
             // The height and width of the iFrame should be the same as parent
-            var iframe = $('<iframe/>', {
-                'frameborder': '0',
-                'src': iframe_url,
-                'width': $(this).width(),
-                'height': $(this).height()
-            })
+            var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
 
             // Replace the YouTube thumbnail with YouTube HTML5 Player
             $(this).replaceWith(iframe);
@@ -90,6 +98,8 @@ $(function () {
 
 /*==========//youtube========*/
 
+
+/*========close button==========*/
 $(document).ready(function () {
     $(window).on('resize', function () {
         if ($(window).width() <= 480) {
@@ -101,7 +111,7 @@ $(document).ready(function () {
             $('.container--programme__list').removeClass('owl-carousel');
         }
     })
-    .trigger('resize');
+        .trigger('resize');
 
     var sliderStudy = $('.study-carousel');
     sliderStudy.owlCarousel({
@@ -123,11 +133,3 @@ $(document).ready(function () {
     });
 
 });
-
-$(document).ready(function () {
-
-
-});
-
-
-

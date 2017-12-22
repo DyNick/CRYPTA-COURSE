@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    @media (max-width:$tablet-width ) {
+        height: 820px;
+    }
     &:after{
         content: '';
         position: absolute;
@@ -14,6 +17,9 @@
         width: 300px;
         height: 300px;
         transform: rotate(45deg);
+        @media (max-width: $tablet-width ){
+            display: none;
+        }
     }
 }
 .reviews_roumb{
@@ -27,6 +33,11 @@
     height: 800px;
     z-index: 0;
     box-shadow: 0 0 20px 5px rgba(0,0,0,.5);
+    @media (max-width: $tablet-width ){
+        top: 65%;
+        width: 530px;
+        height: 530px;
+    }
 }
 .reviews{
     position: absolute;
@@ -34,6 +45,9 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+    @media (max-width: $tablet-width ){
+        top: 40%;
+    }
     h2{
         font-family: $mpb;
         font-size: 72px;
@@ -42,6 +56,9 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
+        @media (max-width: $tablet-width ){
+            font-size: 40px;
+        }
     }
 
 }
@@ -49,14 +66,28 @@
     position: absolute;
     width: 100%;
     top: 198px;
-    //top: 95px;
     z-index: 1;
+    @media (max-width: $tablet-width ){
+        top: 110px;
+        left: 0;
+    }
+    @media (max-width: $mobile-small-width) {
+        top: 60px;
+    }
     &--item{
         display: flex;
         justify-content: center;
         align-items: center;
+        @media (max-width: $tablet-width ){
+            flex-direction: column;
+
+        }
         p{
             width: 50%;
+            @media (max-width: $tablet-width ){
+                width: 60%;
+                text-align: center;
+            }
             .reviews_title{
                 font-size: 25px;
                 font-family: $mpb;
@@ -72,6 +103,9 @@
 }
 .reviews_slider.owl-carousel .owl-item img{
     width: 205px;
+    @media (max-width: $tablet-width ){
+        width: 130px;
+    }
 }
 .reviews_slider .owl-nav {
     display: flex;
@@ -80,12 +114,20 @@
     width: 85%;
     top: 80px;
     left: 90px;
+    @media (max-width: $tablet-width ){
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     .owl-prev{
         width: 45px;
         height: 45px;
         background-color: $orange;
         transform: rotate(45deg);
         position: relative;
+        @media (max-width: $mobile-small-width){
+            left: -15px;
+        }
         &:after{
             content: '';
             position: absolute;
@@ -105,6 +147,9 @@
         background-color: $orange;
         transform: rotate(45deg);
         position: relative;
+        @media (max-width: $mobile-small-width){
+            right: -15px;
+        }
         &:after{
             content: '';
             position: absolute;

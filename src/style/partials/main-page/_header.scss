@@ -7,17 +7,64 @@
   z-index: 9;
   border-bottom: 1px solid #878687;
   transition: .25s;
-  .container{
+    @media (max-width: 1366px ){
+        padding: 10px 0;
+    }
+    @media (max-width: $mobile-big-width ){
+        padding: 5px 0;
+    }
+    .container{
     .nav-header{
       ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        @media (max-width:$container-width ) {
+          justify-content: space-around;
+        }
+        @media (max-width:$desktop-width) {
+          justify-content: space-between;
+        }
         li{
+            &:nth-child(2){
+                @media (max-width:$desktop-width) {
+                    display: none;
+                }
+            }
+            &:nth-child(3){
+                @media (max-width:$desktop-width) {
+                    display: none;
+                }
+            }
+            &:nth-child(4){
+                @media (max-width:$desktop-width) {
+                    display: none;
+                }
+            }
+            &:nth-child(6){
+                @media (max-width:$desktop-width) {
+                    display: none;
+                }
+            }
+            &:nth-child(7){
+                @media (max-width:$desktop-width) {
+                    display: none;
+                }
+            }
+            &:nth-child(8){
+                @media (max-width:$desktop-width) {
+                    display: none;
+                }
+            }
+            &:nth-child(9){
+            }
           .logo{
             img{
               width: 80px;
+                @media (max-width: $mobile-big-width ){
+                    width: 60px;
+                }
             }
           }
         }
@@ -34,6 +81,9 @@
   position: relative;
   transition: .25s;
   text-transform: uppercase;
+  @media (max-width:$desktop-width) {
+    display: none;
+  }
   &:hover{
     color: $orange;
     transition: .25s;
@@ -50,6 +100,7 @@
     transform: translateX(-50%);
   }
 }
+
 .header-link:after{
   top: -13px;
 }
@@ -65,9 +116,26 @@
   transition: .25s;
 }
 
-
+.hamburger_item{
+  display: none;
+  @media (max-width:$desktop-width) {
+    display: block;
+  }
+}
 .header--active{
   background-color: rgba(0,0,0,.5);
   padding: 5px 0;
   transition: .25s;
+}
+
+.hamburger .hamburger-box .hamburger-inner{
+    background-color: #fff;
+    display: none;
+    @media (max-width:$desktop-width) {
+        display: block;
+    }
+    &:after, &:before{
+        content: '';
+        background-color: #fff;
+    }
 }

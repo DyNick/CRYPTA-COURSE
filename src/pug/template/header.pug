@@ -1,3 +1,5 @@
+include hamburger
+
 mixin header()
 	header.header
 		div.container
@@ -12,6 +14,8 @@ mixin header()
 						a(href="#").header-link цели и результаты
 					li
 						a(href="#").header-link спикеры
+					li.hamburger_item
+						+hamburger()
 					li
 						a(href="#").header-link что вы получите
 					li

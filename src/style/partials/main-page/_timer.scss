@@ -4,6 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 1366px ){
+        padding: 10px;
+    }
+    @media (max-width: $mobile-big-width ){
+        padding: 5px;
+    }
     .cd-box{
         background-color: #fff;
         margin-right: 15px;
@@ -18,11 +24,20 @@
             font-size: 76px;
             font-family: $mpb;
             color: $grey;
+            @media (max-width: 1366px ){
+                font-size: 50px;
+            }
+            @media (max-width: $mobile-big-width ){
+                font-size: 30px;
+            }
         }
         .strings{
             font-size: 20px;
             font-family: $mpr;
             color: $grey;
+            @media (max-width: $mobile-big-width ){
+                font-size: 18px;
+            }
         }
     }
 }
