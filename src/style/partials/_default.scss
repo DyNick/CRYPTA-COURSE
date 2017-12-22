@@ -13,6 +13,7 @@ $mpr: "mpr";
 $container-width: 1200px;
 $laptop-width: 1280px;
 $desktop-width: 1024px;
+$desktop-min-width: 998px;
 $tablet-width: 768px;
 $mobile-big-width: 480px;
 $mobile-small-width: 320px;
@@ -103,10 +104,34 @@ a {
 		transition: .25s;
 	}
 }
+h2{
+	 font-family: mpb;
+	 @media (max-width:$laptop-width ) {
+		 font-size: 50px!important;
+	 }
 
+	@media (max-width:$mobile-big-width ) {
+		font-size: 35px!important;
+	}
+ }
+h3{
+	font-family: mpb;
+	@media (max-width:$laptop-width ) {
+		font-size: 35px!important;
+	}
+	@media (max-width:$mobile-big-width ) {
+		font-size: 25px!important;
+		text-transform: uppercase;
+	}
+}
 .container {
 	width: $container-width;
 	margin: 0 auto;
+	@media (max-width:$container-width ) {
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
 	&-inner {
 		display: flex;
 		box-sizing: border-box;

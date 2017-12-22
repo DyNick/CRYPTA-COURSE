@@ -1,10 +1,12 @@
 .programme-section{
 	height: 1200px;
 	position: relative;
-/*	background: url(../img/expert-section/clouds2.png);
-	background-position-y: -47%;
-	background-size: cover;
-	background-repeat: no-repeat;*/
+	@media (max-width:$container-width ) {
+		height: 1150px;
+	}
+	@media (max-width:$tablet-width ) {
+		height: auto;
+	}
 }
 .clouds-image-programme{
 	position: absolute;
@@ -49,6 +51,12 @@
 	&__title{
 		text-align: center;
 		margin-top: 80px;
+		@media (max-width:$tablet-width ) {
+			margin-top: 190px;
+		}
+		@media (max-width:$mobile-big-width ) {
+			margin-top: 80px;
+		}
 		h2{
 			font-size: 72px;
 			color: #fe9923;
@@ -75,6 +83,12 @@
 			position:relative;
 			box-sizing: border-box;
 			overflow: hidden;
+			@media (max-width:$tablet-width ) {
+				width: 48%;
+			}
+			@media (max-width:$mobile-big-width ) {
+				width: 100%;
+			}
 			&:hover{
 				.container--programme__list__item_hover{
 
@@ -94,6 +108,15 @@
 				height: 185px;
 				text-align: center;
 				line-height: 1.2;
+				@media (max-width:$laptop-width ) {
+					font-size: 35px;
+					left: 2%;
+					width: 96%;
+				}
+				@media (max-width:$desktop-width ) {
+					font-size: 25px;
+					height: 50%;
+				}
 			}
 			&_img{
 				width: 100%;
@@ -108,9 +131,20 @@
 				color: #000;
 				background-color: #fff;
 				font-size: 22px;
-				box-shadow: 0px 0px 76px -3px rgba(0,0,0,0.75);
 				transition: 0.3s;
 				transform: translateY(100%);
+				@media (max-width:$laptop-width ) {
+					font-size: 18px;
+
+				}
+				@media (max-width:$desktop-width ) {
+					font-size: 16px;
+
+				}
+				@media (max-width:$desktop-min-width ) {
+					font-size: 14px;
+
+				}
 				ul {
 					display: flex;
 					height: 100%;

@@ -37,7 +37,24 @@ $(document).ready(function (){
         margin:20,
         navSpeed:500,
         nav:true,
-        items:4
+        items:4,
+        responsive: {
+            0: {
+                items: 1
+            },
+            550: {
+                items: 2
+            },
+            820: {
+                items: 3
+            },
+            998: {
+                items: 4
+            }
+        /*    1200: {
+                items: 4
+            }*/
+        }
     });
 
 
