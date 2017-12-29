@@ -1,0 +1,133 @@
+mixin buy-section()
+	section.buy-section
+		div.rhombus-buy--first
+		div.rhombus-buy--second
+		div.rhombus-buy--third
+		div.rhombus-buy--fourth
+		div.rhombus-buy--fivth
+		img.buy-clouds(src='img/expert-section/clouds2.png')
+		div.container.buy-container
+			h1 Купить курс
+			div.all-speakers-buy
+				span.checkbox.checkbox--all
+					input#checkAll(type='checkbox', checked='' value='3700')
+					label(for='checkAll')
+				div.all-speakers-buy__container
+					div.all-speakers-buy__container__image
+						img(src='img/buy/1.png')
+						img(src='img/buy/2.png')
+						img(src='img/buy/3.png')
+						img(src='img/buy/4.png')
+					div.all-speakers-buy__container__title
+						p Интенсивный курс
+						h4
+							|криптовалюты
+							br
+							span и
+							|ICO
+
+							span c нуля
+					div.all-speakers-buy__container__price
+						span Стоимость полного курса:
+						div 3700грн
+
+		div.container.buy-container--second
+			div.single-speakers-buy
+				div.single-speakers-buy__container
+					span.checkbox.checkbox--single
+						input#checkbox-1(type='checkbox', checked=''  value="1100")
+						label(for='checkbox-1')
+					img.single-speakers-buy__img.single-speakers-buy__img--first(src='img/buy/1.2.png')
+					div.single-speakers-buy__container__description
+						h4 Алексей
+							span Волковский
+						div Создать свое ICO Эфективная покупка токенов Инвестировать в перспективное ICO
+					div.single-speakers-buy__container__price
+						span При покупке отдельно:
+						div 1100грн
+
+				div.single-speakers-buy__container
+					span.checkbox.checkbox--single
+						input#checkbox-2(type='checkbox', checked='' value="800")
+						label(for='checkbox-2')
+					img.single-speakers-buy__img.single-speakers-buy__img--second(src='img/buy/2.2.png')
+					div.single-speakers-buy__container__description.single-speakers-buy__container__description--edd
+						h4 Роман
+							span Яковлєв
+						div Юридические аспекты ICO (Разберетесь в юридических аспектах   связанных c ICO)
+					div.single-speakers-buy__container__price
+						span При покупке отдельно:
+						div 800грн
+
+				div.single-speakers-buy__container
+					span.checkbox.checkbox--single
+						input#checkbox-3(type='checkbox', checked='' value="1000")
+						label(for='checkbox-3')
+					img.single-speakers-buy__img.single-speakers-buy__img--third(src='img/buy/3.2.png')
+					div.single-speakers-buy__container__description
+						h4 Александр
+							span Симан
+						div Маркетинг - значительная часть успеха ICO
+					div.single-speakers-buy__container__price
+						span При покупке отдельно:
+						div 1000грн
+
+				div.single-speakers-buy__container
+					span.checkbox.checkbox--single
+						input#checkbox-4(type='checkbox', checked='' value="1100")
+						label(for='checkbox-4')
+					img.single-speakers-buy__img.single-speakers-buy__img--fourth(src='img/buy/4.2.png')
+					div.single-speakers-buy__container__description.single-speakers-buy__container__description--edd
+						h4 Игорь
+							span Перция
+						div Создать свое ICO Эфективная покупка токенов Инвестировать в перспективное ICO
+					div.single-speakers-buy__container__price
+						span При покупке отдельно:
+						div 1100грн
+
+
+
+
+			div.form-buy
+				form#pro-form.form-buy-block
+					//textarea#check_yes_res(name='description', style='display:none;')
+					.form-price-block
+						.form-price-block__number
+							span.output(style='display: none;') 0
+							span.outputall(style='display: inline-block;') 3700
+							|                                     грн
+						.form-price-block__text Стоимость вашего заказа
+						//#amount_show
+							input#get_sales_res__desc(type='text', name='designation', value='0', readonly='')
+							|  грн
+							.form-price-block__text Цена со скидкой
+						br
+						br
+						br
+					input#firstname.form-buy__input.form-buy__input--name(name='firstname', type='text', placeholder='ФИО', required='required')
+					input#email.form-buy__input.form-buy__input--email(name='email', type='email', placeholder='Контактный E-mail', required='required')
+					input#phone.form-buy__input.form-buy__input--phone(name='phone', type='tel', placeholder='Номер телефона', required='required')
+					input#submit1.form-buy__button(type='submit', value='оформить заказ')
+					//.form-policy
+						.form-policy__block
+							.policy-checkbox
+								input#check-policy1.check-policy(type='checkbox', checked='')
+								label(for='check-policy1')
+							span.form-policy__block__text
+								| Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных и соглашаюсь
+								| c условиями
+								a(href='/offerta.php', target='_blank')  договора-оферты
+								| ,
+								a(href='/licence.php', target='_blank') лицензионного договора
+								|  и
+								a(href='/personal.php', target='_blank') политикой конфиденциальности
+						//.form-policy__block
+							.policy-checkbox
+								input#check-policy2.check-policy(type='checkbox', checked='')
+								label(for='check-policy2')
+							span.form-policy__block__text
+								| Я согласен на получение рекламной информации от Business Faces.
+
+
+
+

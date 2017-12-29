@@ -1,0 +1,54 @@
+.back-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding: 10px 0;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #434343, #000000);
+}
+.back-nav{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                .logo{
+                    width: 80px;
+                    margin-left: 15px;
+                }
+            }
+            .number-phone{
+                display: flex;
+                font-family: $mpr;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 30px;
+                &--icon{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: #626162;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+                }
+            }
+            a{
+                color: #fff;
+                font-size: 18px;
+                font-family: $mpr;
+                transition: .25s;
+            }
+        }
+    }
+}
