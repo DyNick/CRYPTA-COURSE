@@ -70,6 +70,9 @@
   position: relative;
   z-index: 3;
   font-family: $mpr;
+  @media(max-width: $tablet-width){
+    margin-top: 135px;
+  }
   h1 {
     text-align: center;
     margin: 100px 0;
@@ -77,6 +80,10 @@
     font-weight: bold;
     font-family: $mpb;
     text-transform: uppercase;
+    @media(max-width: $tablet-width){
+      margin: 0px 0 20px;
+      font-size: 45px;
+    }
   }
 }
 
@@ -202,7 +209,7 @@
       width: 140px;
     }
     @media(max-width: $mobile-big-width){
-      width: 95px;
+      width: 105px;
     }
 
     &--first{
@@ -214,7 +221,7 @@
       }
       @media(max-width: $mobile-big-width){
         left: 0;
-        top: 30px;
+        top: 15px;
       }
     }
     &--second{
@@ -227,7 +234,7 @@
       }
       @media(max-width: $mobile-big-width){
         left: 0;
-        top: 30px;
+        top: 15px;
       }
     }
     &--third {
@@ -239,7 +246,7 @@
       }
       @media(max-width: $mobile-big-width){
         left: 0;
-        top: 30px;
+        top: 15px;
       }
     }
     &--fourth{
@@ -251,7 +258,7 @@
       }
       @media(max-width: $mobile-big-width){
         left: 0;
-        top: 30px;
+        top: 15px;
       }
   }
   }
@@ -278,33 +285,40 @@
       height: 140px;
     }
     &__description{
-      margin: 5px 0 20px 105px;
-      font-size: 14px;
+      margin: 5px 0 20px 125px;
+      font-size: 18px;
       color: #6f6f6f;
+      div{
+        margin-right: 85px;
+        @media(max-width: 585px){
+          margin-right: 65px;
+        }
+      }
       @media(max-width: $desktop-width){
         margin: 5px 0 20px 85px;
-        font-size: 13px;
+        font-size: 17px;
       }
       @media(max-width: $mobile-big-width){
-        margin: -15px 0 20px 85px;
-        font-size: 13px;
+        margin: -15px 0 20px 110px;
+        font-size: 15px;
       }
 
       &--edd{
-        margin: 5px 0 20px 155px;
+        margin: 5px 0 20px 185px;
         @media(max-width: $desktop-width){
-          margin: 5px 0 20px 85px;
+          margin: 5px 0 20px 110px;
         }
       }
       h4{
         color: #e69833;
         font-size: 22px;
         font-weight: bold;
+        margin-top: 5px;
         @media(max-width: $desktop-width){
           font-size: 19px;
         }
         @media(max-width: $mobile-big-width){
-          font-size: 15px;
+          font-size: 17px;
         }
         &:after{
           content: '';
@@ -325,14 +339,18 @@
 
     }
     &__price{
-      background-color: #f2d177;
-      color: #484848;
-       margin: 0px 20px 0px 2px;
-      width: 185px;
+
+      background-color: #484848;
+      color: #f2d177;
+      margin: 0 20px 0 2px;
+      width: 45px;
+      right: 0px;
+      position: absolute;
       text-align: center;
       padding: 10px;
-      font-weight: bold;
-      @media(max-width: $laptop-width){
+      font-weight: 900;
+      font-size: 25px;
+     /* @media(max-width: $laptop-width){
         position: absolute;
         height: 0px;
         width: auto;
@@ -345,16 +363,15 @@
       }
       @media(max-width: $desktop-width){
         left: 100px;
-      }
-      @media(max-width: $mobile-big-width){
-        left: 60px;
-        margin: 0;
+      }*/
+      @media(max-width: 585px){
+        width:25px;
       }
       div{
-        color:red;
+        color:#fff;
         padding-top: 5px;
-        font-size: 25px;
-        width: 185px;
+        font-size: 15px;
+        width: 45px;
         @media(max-width: $laptop-width){
           width: auto;
           font-size: 13px;

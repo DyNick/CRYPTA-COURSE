@@ -171,4 +171,8 @@ $(document).ready(function () {
         var single = parseInt($(this).attr("value"));
         $(".outputall").html(single);
     });
+
+
+
+    $('#phone').mask('+00(000)000-00-00', {placeholder: "+38(___)___-__-__"});
 });
