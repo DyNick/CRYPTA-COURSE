@@ -176,3 +176,39 @@ $(document).ready(function () {
 
     $('#phone').mask('+00(000)000-00-00', {placeholder: "+38(___)___-__-__"});
 });
+
+
+
+$(document).ready(function () {
+    $(window).on('resize', function () {
+        if ($(window).width() <= 620) {
+            $('.buy-price').addClass('by-carousel');
+            $('.buy-price').addClass('owl-carousel');
+        }
+        else {
+            $('.buy-price').removeClass('by-carousel');
+            $('.buy-price').removeClass('owl-carousel');
+        }
+    })
+        .trigger('resize');
+
+    var sliderBy = $('.by-carousel');
+    sliderStudy.owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        navSpeed: 500,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
+
+});

@@ -60,7 +60,13 @@ $grey: #7a7c7c;
 
 
 //=================default===============
+html {
 
+	overflow-x: hidden;
+}
+body {
+	overflow: hidden;
+}
 a {
 	text-decoration: none;
 	&:hover {
