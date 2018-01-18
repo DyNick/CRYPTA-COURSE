@@ -236,3 +236,109 @@
         }
     }
 }
+
+/*========SELL BUTTON=====*/
+
+
+.sell-button{
+    font-family: $mpb;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 280px;
+    position:relative;
+}
+
+.sell-button__price{
+    background-color: rgba(190,32,33,.9);
+    color: #fff;
+    padding: 10px 30px 30px;
+    position: relative;
+    line-height: 0.2;
+}
+.sell-button__price__number{
+    margin-left: 12px;
+    border-bottom:5px solid  #fff;
+
+
+}
+.sell-button__price__number .value{
+    font-size:16px;
+    padding-left: 3px;
+}
+.sell-button__header{
+    background-color: rgba(190,32,33,0.9);
+    color:#fff;
+    margin-left: 20px;
+    padding: 10px 10px 5px;
+}
+.sell-button__to{
+    background-color: transparent;
+    color: #fda625;
+    border-bottom: 6px solid rgba(190,32,33,.9);
+    border-right: 6px solid rgba(190,32,33,.9);
+    font-size: 23px;
+    margin-top: 10px;
+    padding-right: 0px;
+    width: 250px;
+    padding-bottom: 8px;
+    left: 60px;
+    position: absolute;
+}
+.sell-content {
+    position: relative;
+    margin-top: 60px;
+    transition: .4s ease-out;
+}
+.fa-angle-left--top-left{
+    transform:rotate(45deg);
+    font-size: 86px;
+    color: rgba(190,32,33,.9);
+    position: absolute;
+    top: -53px;
+    left: 0;
+}
+
+.sell-content:hover .sell-button__header{
+    background-color:#000;
+    color: #fff;
+}
+.sell-content:hover .sell-button__price{
+    background-color:#000;
+    color: #fff;
+}
+.sell-content:hover .sell-button__price__number{
+   border-bottom:5px solid #fff;
+    color: #fda625;
+}
+
+.sell-content:hover .sell-button__to {
+     background-color: transparent;
+     color: #fff;
+     border-bottom: 6px solid #fff;
+     border-right: 6px solid #fff;
+ }
+.sell-content:hover .fa-angle-left--top-left{
+    color: #fff;
+}
+
+.sell-content:hover {
+    transform: scale(1.025);
+    transition: .4s ease-out;
+}
+@media(max-width:480px){
+    .sell-button{
+        font-size: 23px;
+    }
+    .sell-button__price__number {
+        border-bottom: 2px solid #fff;
+    }
+    .sell-button__to{
+        left:0;
+        border-bottom: 4px solid rgba(190,32,33,.9);
+        border-right: 4px solid rgba(190,32,33,.9);
+    }
+    .fa-angle-left--top-left{
+        font-size: 70px;
+    }
+}

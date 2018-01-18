@@ -70,8 +70,9 @@ $(document).ready(function(){
         }
         //
         $("#countdown").countdown({
-            date: "28 February 2018 19:00:00", // change date/time here - do not change the format!
+            date: "25 February 2018 19:00:00", // change date/time here - do not change the format!
             format: "on"
         });
     });
 });
+

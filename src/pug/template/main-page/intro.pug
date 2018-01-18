@@ -10,9 +10,9 @@ mixin intro()
                     |интенсивный <br>
                     span курс
             h1.title
-                span криптовалюты <br>
+                span.animatable.bounceInLeft криптовалюты <br>
                 |и
-                span  ico
+                span.animatable.bounceInRight  ico
                 |  с нуля
             div.intro_about_course
                 div.intro_about_course--item
@@ -29,12 +29,21 @@ mixin intro()
                         | online вебинаров
             div.timer
                 +timer()
-            p.intro_price
+            //p.intro_price
                 | стоимость курса
                 span    3700
                 span  грн
-            a(href="#" class="btn") купить курс
+            //a(href="#" class="btn") купить курс
+            div.sell-content
+                i.fa.fa-angle-left.fa-angle-left--top-left(aria-hidden='true')
+                a(href='buy.php').sell-button
+                    div.sell-button__header ранние пташки
+                    div.sell-button__price
+                        span.sell-button__price__title Цена :
+                        span.sell-button__price__number 2500
+                            span.value грн
 
+                    div.sell-button__to только до 25 января
         img.bottom-gradient(src='../img/intro/bottom-gradient.png')
         //.bottom-gradient
 
